@@ -1,6 +1,6 @@
 let info = {
   name: "Mei-Ren Ke",
-  logo_name: "Jasmine",
+  logo_name: "test",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
