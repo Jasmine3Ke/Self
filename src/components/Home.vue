@@ -17,8 +17,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
-          >
+            >Hi, I'm Mei-Ren Ke!</span>
           <div>
             <p v-html="description"></p>
           </div>
@@ -73,7 +72,6 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
       resume: info.links.resume
     };
   },

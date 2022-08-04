@@ -1,7 +1,7 @@
 let info = {
   name: "Mei-Ren Ke",
-  logo_name: "test",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  logo_name: "Jasmine",
+  flat_picture: require("./src/assets/potrait.jpg"), // 找首頁potrait照片
   config: {
     use_cookies: true,
     navbar: {
@@ -9,13 +9,13 @@ let info = {
     }
   },
   description:
-    "A second year Computer Science graduate student at National Taiwan University of Science and Technology with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "<br>A second year Computer Science graduate student at National Taiwan University of Science and Technology.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
   links: {
     linkedin: "https://www.linkedin.com/in/mei-ren-ke-7136641a5/",
-    github: "https://github.com/Ke-718",
-    angellist: "https://angel.co/u/hrishikesh-paul",
+    github: "https://github.com/Jasmine3Ke",
     resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf", //寫履歷
+    publication: "http://search.taai.org.tw/paper/2020/0/%E5%9F%BA%E6%96%BC%E5%9C%96%E5%83%8F%E7%90%86%E8%A7%A3%E8%88%87%E8%89%B2%E5%BD%A9%E6%84%8F%E8%B1%A1%E7%94%B1%E7%95%AB%E4%BD%9C%E7%94%9F%E6%88%90%E8%A9%A9%E6%96%87%E4%B9%8B%E7%B3%BB%E7%B5%B1.pdf"
   },
   education: [
     {
@@ -28,7 +28,7 @@ let info = {
         "Currently pursuing my Master's in Computer Science, while specializing in the field of Fuzzy System.",
       skills: [
         "Fuzzy System",
-        "Software Engineering",
+        "Blockchain",
         "Algorithms",
         "Computer Vision",
         "Data Mining",
@@ -41,13 +41,16 @@ let info = {
       date: "Sep, 2017 - Jun, 2021",
       degree: "Bachelors in Computer Science and Engineering",
       description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
+        "Graduated from Yuan Ze University with a bachelors degree in Computer Science and Engineering.<br><br>" + 
+        "<ul style='list-style-position:outside;'>" + 
+        "<li> Dept. Representative, 2017-2018 " +
+        "<li> Graduate Representative, 2020-2021 </ul>",
       skills: [
         "Artificial Intelligence",
         "Neural Netwroks",
         "Computer Vision",
-        "Pattern Recognition",
-        "Software Engineering"
+        "C++",
+        "Computer Organization"
       ]
     }
   ],
@@ -57,8 +60,10 @@ let info = {
       place: "Taipei Fubon Bank",
       date: "July, 2022 - Aug, 2022",
       position: "Mobile Application Developer",
-      description:
-        "pending",
+      description: //補英文描述
+        "<ul style='list-style-position:outside;'>" + 
+        "<li>pending" + 
+        "<li>pending </ul>",
       skills: ["Android Studio", "Java", "Swift"]
     },
     {
@@ -66,11 +71,12 @@ let info = {
       place: "Yuan-Ze University",
       date: "Feb, 2019 - Feb, 2021",
       position: "Research Assistant",
-      description: // 想辦法分段
-        "• Advisor: I-Cheng Yeh " + 
-        "• Research topic: Automatic Generation of Classical Chinese Poetry Based on Image and Color of Paintings " + 
-        "• Contributions: completed the College Student Co-Research Project sponcered by Taiwan's Ministry of Science and Technology, attended competitions " + 
-        "• Participated in the Data Visualization Study Group, 2019.02-2019.10 ",
+      description: 
+        "<ul style='list-style-position:outside;'>" + 
+        "<li><b>Advisor:</b> I-Cheng Yeh" +
+        "<li><b>Research topic:</b> Automatic Generation of Classical Chinese Poetry Based on Image and Color of Paintings" + 
+        "<li><b>Contributions:</b> completed the College Student Co-Research Project sponcered by Taiwan's Ministry of Science and Technology, attended competitions<br>" + 
+        "<li>Participated in the Data Visualization Study Group, 2019.02-2019.10 </ul>",
       skills: ["Python", "Data Visualization", "Machine Learning", "NLP"]
     }
   ],
@@ -83,13 +89,12 @@ let info = {
     {
       title: "data frameworks",
       info: [
-        "Keras",
+        "YOLO",
         "Numpy",
         "Pandas",
         "OpenCV",
         "SciPy",
         "Sklearn",
-        "LibROSA",
         "Pillow"
       ],
       icon: "fa fa-cubes"
@@ -273,7 +278,7 @@ let info = {
   ],
   portfolio_design: [
     {
-      name: "Guituna",
+      name: "HowFetching",
       title: "Guituna - Mockup Design",
       pictures: [
         {

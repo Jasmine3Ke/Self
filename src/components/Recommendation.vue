@@ -9,9 +9,9 @@
       >
         <span
           class="title text-center"
-          :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >recommendations.</span
-        >
+          :class="{ pgray: !nightMode, 'text-light': nightMode }">
+          publication.
+        </span>
       </div>
       <hr
         width="50%"
@@ -45,6 +45,14 @@
             >
           </div>
         </div>
+        <div class="btnShowMore">
+          <button
+            style="height: 31px; margin-top: 5px;"
+            class="btn-sm btn btn-outline-secondary no-outline"
+            @click="open('publication')">
+            read more
+          </button> 
+        </div>  
       </div>
     </div>
   </div>
@@ -63,7 +71,17 @@ export default {
   data() {
     return {
       data: info.recommendations,
+      publication: info.links.publication,
     };
+  },
+  methods:{
+    open(link){
+      switch(link){
+        case "publication":
+          window.open(this.publication, "_blank");
+          break;
+      }
+    },
   },
 };
 </script>
@@ -90,5 +108,10 @@ export default {
   font-size: 16px;
   font-weight: 400;
   text-align: right;
+}
+
+.btnShowMore {
+  width: 95px;
+  margin: auto;
 }
 </style>

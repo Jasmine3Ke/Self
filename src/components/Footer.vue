@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2020 Copyright: Hrishikesh Paul</span>
+          <span> <i class="fa fa-envelope"></i> :  meirenke4@gmail.com</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
@@ -45,7 +45,6 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
       resume: info.links.resume,
     };
   },
