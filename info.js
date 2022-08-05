@@ -14,7 +14,7 @@ let info = {
     linkedin: "https://www.linkedin.com/in/mei-ren-ke-7136641a5/",
     github: "https://github.com/Jasmine3Ke",
     resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf", //寫履歷
+      "https://github.com/Jasmine3Ke/Self/blob/master/src/assets/pdfs/Resume.pdf", //寫履歷
     publication: "http://search.taai.org.tw/paper/2020/0/%E5%9F%BA%E6%96%BC%E5%9C%96%E5%83%8F%E7%90%86%E8%A7%A3%E8%88%87%E8%89%B2%E5%BD%A9%E6%84%8F%E8%B1%A1%E7%94%B1%E7%95%AB%E4%BD%9C%E7%94%9F%E6%88%90%E8%A9%A9%E6%96%87%E4%B9%8B%E7%B3%BB%E7%B5%B1.pdf"
   },
   education: [
