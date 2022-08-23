@@ -15,35 +15,40 @@
       </div>
       <hr
         width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-      />
+        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
       <div class="row">
+
+
+
         <div
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 py-3 px-5"
           v-for="d in data"
-          :key="d.author"
-        >
+          :key="d.author">
+          <div 
+            class="title4"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true">
+            <span v-html="d.company"></span>
+          </div>
+          <div
+            class="title3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true">
+            <span>- {{ d.author }}, {{ d.position }}</span>
+          </div>
           <div
             class="title2"
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-          >
-            <span>"{{ d.title }}"</span>
+            data-aos-mirror="true">
+            <span v-html="d.title"></span>
           </div>
-          <div
-            class="title3 float-right py-2 pl-5"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-          >
-            <span>
-              – {{ d.author }}, {{ d.position }}, {{ d.company }},
-              {{ d.location }}</span
-            >
-          </div>
+          
         </div>
         <div class="btnShowMore">
           <button
@@ -92,22 +97,28 @@ export default {
   font-weight: 500;
 }
 .title1 {
-  font-size: 24px;
+  font-size: 24px; 
   font-weight: 400;
 }
 
 .title2 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  font-style: italic;
   text-align: justify;
 }
 
 .title3 {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-align: right;
+  font-style: italic;
+}
+
+.title4{
+  font-size: 19px;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .btnShowMore {

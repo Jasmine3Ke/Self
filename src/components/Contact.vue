@@ -8,6 +8,7 @@
     }"
   >
     <div class="container">
+
       <div
         class="text-center"
         data-aos="fade"

@@ -1,7 +1,7 @@
 let info = {
   name: "Mei-Ren Ke",
   logo_name: "Jasmine",
-  flat_picture: require("./src/assets/potrait.jpg"), // 找首頁potrait照片
+  flat_picture: require("./src/assets/potrait.jpeg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,12 +9,13 @@ let info = {
     }
   },
   description:
-    "<br>A second year Computer Science graduate student at National Taiwan University of Science and Technology.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "<br>A second year Computer Science graduate student at National Taiwan University of Science and Technology." +
+    "<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
   links: {
-    linkedin: "https://www.linkedin.com/in/mei-ren-ke-7136641a5/",
+    linkedin: "https://www.linkedin.com/in/mei-ren-ke/",
     github: "https://github.com/Jasmine3Ke",
     resume:
-      "https://github.com/Jasmine3Ke/Self/blob/master/src/assets/pdfs/Resume.pdf", //寫履歷
+      "https://github.com/Jasmine3Ke/Self/blob/master/src/assets/pdfs/Resume.pdf", 
     publication: "http://search.taai.org.tw/paper/2020/0/%E5%9F%BA%E6%96%BC%E5%9C%96%E5%83%8F%E7%90%86%E8%A7%A3%E8%88%87%E8%89%B2%E5%BD%A9%E6%84%8F%E8%B1%A1%E7%94%B1%E7%95%AB%E4%BD%9C%E7%94%9F%E6%88%90%E8%A9%A9%E6%96%87%E4%B9%8B%E7%B3%BB%E7%B5%B1.pdf"
   },
   education: [
@@ -62,9 +63,11 @@ let info = {
       position: "Mobile Application Developer",
       description: //補英文描述
         "<ul style='list-style-position:outside;'>" + 
-        "<li>pending" + 
-        "<li>pending </ul>",
-      skills: ["Android Studio", "Java", "Swift"]
+        "<li>test case generation and management" + 
+        "<li>tested mobile and web application" +
+        "<li>developed a live cryptocurrency prices mobile application using JAVA" +
+        "<li>working with third-party libraries and APIs</ul>",
+      skills: ["Android Studio", "Java", "Swift", "UI/UX"]
     },
     {
       name: "Visual Media Laboratory",
@@ -77,7 +80,7 @@ let info = {
         "<li><b>Research topic:</b> Automatic Generation of Classical Chinese Poetry Based on Image and Color of Paintings" + 
         "<li><b>Contributions:</b> completed the College Student Co-Research Project sponcered by Taiwan's Ministry of Science and Technology, attended competitions<br>" + 
         "<li>Participated in the Data Visualization Study Group, 2019.02-2019.10 </ul>",
-      skills: ["Python", "Data Visualization", "Machine Learning", "NLP"]
+      skills: ["Python", "Data Visualization", "Machine Learning", "NLP", "Image Recognition", "Image Processing"]
     }
   ],
   skills: [
@@ -279,7 +282,7 @@ let info = {
   portfolio_design: [
     {
       name: "HowFetching",
-      title: "Guituna - Mockup Design",
+      title: "HowFetching",
       pictures: [
         {
           img: require("./src/assets/designs/coursera1/MoodBoard.png"),
@@ -298,13 +301,13 @@ let info = {
           title: "App Elements"
         }
       ],
-      technologies: ["XD", "Illustrator"],
+      technologies: ["React Native", "Illustrator"],
       category: "Visual Design",
       github: "",
       date: "May, 2020 - Jun, 2020",
       visit: "",
       description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+        "Developing this for the final round of Data Creactive Competition, the mobile application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
     },
     {
       name: "Pantree",
@@ -372,36 +375,20 @@ let info = {
   recommendations: [
     {
       title:
-        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Ushanas Shastri",
-      position: "CTO",
-      company: "Viteos Capital Market Services",
-      location: "Mumbai"
+        "<br>• Our model generated poems via inputting the artworks such as the paintings<br><br>" + 
+        "• <b>Keypoints:</b><br>" +
+        "<ul style='list-style-type: decimal;'>" + 
+        "<li>Compressed a 45-dimensions feature vector via one-hot encoding and inputted to support vector machine (SVM)<br>" + 
+        "<li>Trained support vector machine and conducted style prediction<br></ul>" +
+        "• <b>Contributions:</b><br>" +
+        "<ul style='list-style-type: decimal;'>" + 
+        "<li>Trained on small scale dataset and conducted the user study<br>" + 
+        "<li>Transformed images in MS COCO2017 into synthetic images<br>" + 
+        "<li>Oral presentation in conference</ul>",
+      author: "Published in International Conference on Technologies and Applications of Artificial Intelligence (TAAI)",
+      position: "Dec 5, 2020",
+      company: "Automatic Generation of Classical Chinese Poetry Based on Image and Color of Paintings"
     },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Anil Dukkipatty",
-      position: "CTO",
-      company: "Elemential Labs",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
-      author: "Chintan Shah",
-      position: "Director",
-      company: "Hridayam Soft Solution",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
-      author: "Mrinal Pai",
-      position: "Co-Founder & Director",
-      company: "Skylark Drones",
-      location: "Bangalore"
-    }
   ]
 };
 
