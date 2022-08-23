@@ -24,7 +24,7 @@ let info = {
       place: "Taiwan",
       date: "Sep, 2021 - present",
       degree: "Masters in Computer Science and Information Engineering",
-      //gpa: "pending",
+      gpa: "4.13/4.30",
       description:
         "Currently pursuing my Master's in Computer Science, while specializing in the field of Fuzzy System.",
       skills: [
